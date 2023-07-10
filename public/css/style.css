@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    background-color: #1b1b1b;
+    color: rgb(225, 225, 225);
+    }
+#root{
+    display: flex;
+   
+}
+
+.profile-pic {
+    background-color: #000; 
+    border: 6px inset #6a737d;
+    border-radius: 8px;
+    width: 300px;
+
+}
+
+.banner {
+    background-image: url('/images/background.jpg');
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10.5rem 4.875rem;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 100px;
+    text-shadow: 4px 3px 4px black;
+}
+
+.banner p {
+    font-size: 60px;
+    text-shadow: 4px 3px 4px black;
+}
+
+header {
+    background-color: slategray;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+
+}
+
+header a {
+    color: white;
+}
+
+header nav {
+    position: sticky;
+    top: 10px;
+}
+
+header nav:hover {
+    width: 200px;
+    height: 200px;
+  }
+  
+.navBar{
+  align-content: center;
+  background: radial-gradient(circle,#1d1c1f 0,#1c1d27 100%);
+  border-radius: 0;
+  border-right: 2px solid #00e1ff;
+  display: flex;
+  flex: 0 1 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+  }
+  
+  .navLinks li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .navLinks li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  .navLinks li:last-child {
+    border-bottom: none;
+  }
+  
+  .navLinks li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .navLinks li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+
+
+.about-me {
+    color: white;
+    border: 5px solid;
+    padding: 10px;
+}
+
+
+
+.qualifications-pics {
+
+    display: flex;
+    border: 10px solid yellow;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.qualifications-pics li {
+    flex: 1 1 50%;
+    text-align: center;
+    font-size:xx-large;
+    
+}
+
+.qualifications img {
+    max-width: 100%;
+}
+
+
+
+.icons img {
+    width: 80px;
+}
+
+.icons img:hover {
+    width: 200px;
+    height: 200px;
+    
+  }
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: dodgerblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.stay-connected {
+    background-color: dodgerblue;
+}
+
+#contact-info {
+    color: black;
+    text-align: center;
+    border: 10px solid whitesmoke;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+   color:#000;
+   list-style-type: none;
+}
+
+.projects article {
+    background: #f5f5f5;
+    border: 5px solid #00e1ff;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.projects li img{
+    max-width: 30%;
+    flex: 1 1 50%;
+}
+
+#group-project{
+   
+    color: #dedede;
+    padding: 40px 0;
+    
+}
+
+#certifications{
+    color: #dedede;
+    padding: 40px 0;
+   
+}
+
+#project1{
+    list-style-type: none;
+}
+
+#project2{
+    list-style-type: none;
+}
