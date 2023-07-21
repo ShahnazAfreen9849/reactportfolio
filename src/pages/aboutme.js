@@ -2,6 +2,24 @@ import React from 'react';
 
 export default function About() {
   return (
+    <>
+    <div>
+    <div>
+        <section class="banner">
+            <div>
+                <h1>Shahnaz Afreen</h1>
+                <p>
+                    Digital Marketer, Full-stack Developer,
+                    Scrum Master.
+                </p>
+            </div>
+            <img class="profile-pic" src="images/profilePic.jpg" alt="Selfie time"/>
+        </section>
+    </div>
+
+    <section class="credentials">
+        </section>
+</div>
     <section class="about-me">
     <h2 id="about-me">About Me</h2>
     <p>
@@ -45,5 +63,6 @@ export default function About() {
 
     </p>
 </section>
+</>
   );
 }

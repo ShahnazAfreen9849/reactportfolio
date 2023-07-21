@@ -5,7 +5,7 @@ import PortfolioContainer from './components/PortfolioContainer';
 function App() {
   return (
    <>
- <header>
+
     <PortfolioContainer/>
         {/* <nav class="navBar">
             <ul class="navLinks">
@@ -26,31 +26,8 @@ function App() {
                 </li>
             </ul>
         </nav> */}
-    </header>
-    <div>
-        <div>
-            <section class="banner">
-                <div>
-                    <h1>Shahnaz Afreen</h1>
-                    <p>
-                        Digital Marketer, Full-stack Developer,
-                        Scrum Master.
-                    </p>
-                </div>
-                <img class="profile-pic" src="images/profilePic.jpg" alt="Selfie time"/>
-            </section>
-        </div>
-        
-        
 
-
-        <section class="credentials">
-            
-           
-        </section>
-
-        
-    </div>
+  
    </>
   );
 }
